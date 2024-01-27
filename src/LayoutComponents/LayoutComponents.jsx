@@ -15,6 +15,8 @@ import { LargeProductListItem } from './Product/LargeProductListItem.jsx'
 //specific split item
 import { RightHandComponent, LeftHandComponent } from './SplitComponents/SplitComponents'
 
+
+//uncomment design pattern you want to display
 export const LayoutComponents = () => (
   <RegularList 
     items={products}
