@@ -1,5 +1,5 @@
-export const SmallProductListItem = ({ products }) => {
-  const { name, price } = products;
+export const SmallProductListItem = ({ product }) => {
+  const { name, price } = product;
 
   return (
     <>

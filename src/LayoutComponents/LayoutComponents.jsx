@@ -3,8 +3,8 @@ import { people, products } from '../data'
 
 //main design Items
 import { SplitScreen } from './SplitScreen'
-import { RegularList } from './RegularList.jsx'
-
+import { RegularList } from './RegularList'
+import { Modal } from './Modal'
 
 //specific list item
 import { SmallPersonListItem } from './People/SmallPersonListItem.jsx'
@@ -18,10 +18,14 @@ import { RightHandComponent, LeftHandComponent } from './SplitComponents/SplitCo
 
 //uncomment design pattern you want to display
 export const LayoutComponents = () => (
-  <RegularList 
+  <Modal>
+    <LargeProductListItem product={products[0]}/>
+  </Modal>
+
+  /*<RegularList 
     items={products}
-    resourceName="products"
-    itemComponent={SmallProductListItem} />
+    resourceName="product"
+    itemComponent={LargeProductListItem} />*/
 
   /*<SplitScreen leftWeight={1} rightWeight={3}>
         <LeftHandComponent  name="Left" />

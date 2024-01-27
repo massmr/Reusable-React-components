@@ -1,6 +1,6 @@
-export const LargeProductListItem = ({ products }) => {
+export const LargeProductListItem = ({ product }) => {
   
-  const { name, price, description, rating } = products;
+  const { name, price, description, rating } = product;
 
   return (
     <>
