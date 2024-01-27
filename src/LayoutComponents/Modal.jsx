@@ -13,7 +13,7 @@ const ModalBackground = styled.div`
 `;
 
 const ModalBody = styled.div`
-  background-color: white,
+  background-color: white;
   margin: 10% auto;
   padding: 20px;
   width: 50%;
